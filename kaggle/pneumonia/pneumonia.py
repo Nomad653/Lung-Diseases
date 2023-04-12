@@ -134,3 +134,5 @@ train_ds, val_ds, test_ds = use_buffered_prefetching(train_ds, val_ds, test_ds)
 model = build_transfer_learning_model()
 history = train_model(model, train_ds, val_ds, test_ds)
 plot_learning_curves(history)
+
+model.save('pneumonia.h5')
