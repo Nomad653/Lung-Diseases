@@ -1,5 +1,0 @@
-.DS_Store
-.idea/
-**/catboost_info/**
-**/*.ipynb
-**/*.pyc
